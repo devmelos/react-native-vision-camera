@@ -39,7 +39,7 @@ extension CameraSession {
       VisionLogger.log(level: .info, message: "Capturing photo...")
 
       // Create photo settings
-      let photoSettings = AVCapturePhotoSettings()
+      let photoSettings = AVCapturePhotoSettings(format: [AVVideoCodecKey: AVVideoCodecType.hevc]);
 
       // set photo resolution
       if #available(iOS 16.0, *) {
