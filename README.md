@@ -12,7 +12,7 @@
   <img align="right" width="35%" src="docs/static/img/example.png">
 </div>
 
-### Features
+### Featuresdd
 
 VisionCamera is a powerful, high-performance Camera library for React Native. It features:
 
